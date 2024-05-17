@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>疑似要素の練習</title>
+  <style type="text/css">
+    h3::before{
+      content:"★";
+    }
+    a::after{
+      content: url(https://lh3.googleusercontent.com/fife/ALs6j_FFxOZRuFQnTR1-GSiXN50Hw82HiQXHwIKr9VUUNiXPuew9xKonGLMPGgLXvRzBqFImDP39HnbCuRK0T5IIs_GkgAZgqZTvYLAUHAG9DjT5ZUZP-ZaJ7aQ_xtcIMsLtuEChlHJEHNTRSN5XXG1UWb0olAN7A6go79m50uIjBMiu0GelVYO5TInibsEDHbAjMc9kYamS_sMvTFuXLRShUvhGQlOkac4j53yUJbF1BiPJXkKIwv-rEiHn1x2LkKW5XJpIn_g45KMd1IXVD6tV2T7vhXlrMRHmVykdXYoqgz21UfgifVL6hAwtNr7-UUfW7XDLhB3-uPKP_V86gTMPmXJtMWZB0p27KTLawIPQhkba-DlBGcAeu-pJP-t0bqkIIjWQZl5U-Kc4ZSZXwyCND2mlFy36sq4S_I0TUtP1JZBJokiFZ0HDmakcrtpEquDeDZXCSYsnfqvCcV9tPmNp_KYfyeOB7ADiT_aTAExyaACKz2WjDvL4cOsyOZ2oD8CkmTMbrn9DHlnTM426AcTDq5FjLQlmUPpgCwMttqHCqyZerTq1BQWN7vaWnPCKvNZvdHapmr4rBoBV1bWIPXQySgygo4jV0-sV6jjmdYngkDO-UfSQdOWwgOSi7L75dOj113tNzWdZSv5uUh4x-7e6CXmwkeb_ie_Zd1V5-ohbNPjwUa01WQda5Cvc5cSwsh1Rt06K3jHFOIQAYJISF9zypOhdgkJmO8YOTAwn55KN6eWXcecx36iXGpMQkZGgWZoADqQdhs8ib-Mo5ZUNhkdaPIyMfgZBqP4MJvx9f4OzE3C-t-WZ1XKMOGXc_Wy2JXPo0x7uk5X26fhZAxJ6rGSpVxNKFr8S1Z4bBou9V0ugEiJiI6k4R4Jb9gHCVAacxPxjLaNx3kmFBc5cmWg4QbOzsHg4I2PlO2gWrBjK2Onk7Ei82WENfmPT-167cRYkzjFqmVFzRXY=w772-h912);
+      vertical-align: middle;
+    }
+    p.letter::first-letter{
+      font-size: 2em;
+    }
+    p.line::first-line{
+      color:#f0f;
+    }
+  </style>
+</head>
+<body>
+<h3>タイトルの先頭に星マークを追加</h3>
+  <a href="#">語尾に矢印の画像を追加</a>
+  <p class="letter">
+    日本では、正月におせちやお雑煮を食べる文化があります。お雑煮は地域によって具材や味付けが様々です。
+  </p>
+  <p class="line">
+    このように1文字目だけ、また1行目だけスタイルを変えることによって、読みやすくなります。長文が続くときのアクセントにもなります。
+  </p>
+</body>
+</html>
